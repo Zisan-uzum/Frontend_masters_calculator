@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 400px;
+    height:fit-content;
+    background-color: black;
+    align-items: center;
+    margin: auto;
+    margin-top: 80px;
+    
+}
+.screen{
+    background-color: black;
+    height: 60px;
+    color: lemonchiffon;
+    text-align: right;
+    padding: 10px 40px;
+    font-size: 30px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+
+
+}
+.button{
+    width : 24.5%;
+    height: 80px;
+}
+.double{
+   width : 49.5%;
+}
+.triple{
+    width: 74.5%;
+}
+.orange{
+    background-color: orange;
+}
