@@ -12,10 +12,9 @@
 }
 .screen{
     background-color: black;
-    height: 60px;
     color: lemonchiffon;
     text-align: right;
-    padding: 10px 40px;
+    padding: 40px 10px;
     font-size: 30px;
 }
 .row{
@@ -23,11 +22,18 @@
     justify-content: space-between;
     align-items: stretch;
 
-
 }
 .button{
     width : 24.5%;
     height: 80px;
+    cursor : pointer;
+}
+.button:hover{
+    background-color:rgb(183, 184, 231);
+
+}
+.button:active{
+    background-color: rgb(233, 138, 220);
 }
 .double{
    width : 49.5%;
@@ -36,5 +42,13 @@
     width: 74.5%;
 }
 .orange{
-    background-color: orange;
+    background-color: rgb(221, 169, 73);
+    color:white;
+}
+.orange:hover{
+    background-color: tan;
+    
+}
+.orange:active{
+    background-color: rgb(141, 100, 24);
 }
